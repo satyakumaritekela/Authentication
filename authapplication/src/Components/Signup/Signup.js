@@ -85,7 +85,7 @@ const SignUpForm = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const onSubmit = (values) => {
     axios
-      .post("http://localhost:5000/register", values, {
+      .post("https://registration-tm2djwog6a-ue.a.run.app/register", values, {
         headers: {
           "Access-Control-Allow-Origin": "*",
           "Access-Control-Allow-Credentials": true,
