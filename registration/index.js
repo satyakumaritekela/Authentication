@@ -7,7 +7,7 @@ const registerRouter = require("./src/routes/register");
 
 // using the express application
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 app.use(cors());
 
 // body parser added

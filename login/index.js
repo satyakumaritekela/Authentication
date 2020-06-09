@@ -7,7 +7,7 @@ const loginRouter = require("./src/routes/login");
 
 // using the express application
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 3001;
 app.use(cors());
 
 // body parser added

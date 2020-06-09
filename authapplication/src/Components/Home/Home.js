@@ -14,7 +14,7 @@ const Home = (props) => {
     const user = { userId: userId };
 
     axios
-      .post("https://users-tm2djwog6a-ue.a.run.app/logout", user, {
+      .post("http://localhost:3002/logout", user, {
         headers: {
           "Access-Control-Allow-Origin": "*",
           "Access-Control-Allow-Credentials": true,
@@ -32,7 +32,7 @@ const Home = (props) => {
     const userId = event.target.value;
     const user = { userId: userId };
     axios
-      .post("https://users-tm2djwog6a-ue.a.run.app/users", user, {
+      .post("http://localhost:3002/users", user, {
         headers: {
           "Access-Control-Allow-Origin": "*",
           "Access-Control-Allow-Credentials": true,
